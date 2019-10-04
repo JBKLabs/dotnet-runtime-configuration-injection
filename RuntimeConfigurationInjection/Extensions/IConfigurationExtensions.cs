@@ -5,7 +5,7 @@ namespace RuntimeConfigurationInjection.Extensions {
     // ReSharper disable once InconsistentNaming
     public static class IConfigurationExtensions {
         // ReSharper disable once UnusedMember.Global
-        public static T GetValue<T>(this IConfiguration configuration, string key) {
+        public static T GetConfig<T>(this IConfiguration configuration, string key) {
             var envOverrideName = key.ToUpper().Replace(":", "_");
             var stringValue = Environment.GetEnvironmentVariable(envOverrideName) ??
                               configuration.GetValue<string>(key);

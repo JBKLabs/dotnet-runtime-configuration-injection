@@ -6,6 +6,7 @@
     <authors>JBKLabs</authors>
     <owners>JBKLabs</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
     <projectUrl>https://github.com/JBKLabs/dotnet-runtime-configuration-injection</projectUrl>
     <description>Package Description</description>
     <dependencies>
@@ -15,6 +16,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\bmaule\Workspace\jbklabs\dotnet-runtime-configuration-injection\RuntimeConfigurationInjection\bin\Debug\netstandard2.0\RuntimeConfigurationInjection.dll" target="lib\netstandard2.0\RuntimeConfigurationInjection.dll" />
+    <file src="RuntimeConfigurationInjection\bin\Release\netstandard2.0\RuntimeConfigurationInjection.dll" target="lib\netstandard2.0\RuntimeConfigurationInjection.dll" />
+    <file src="LICENSE" target="" />
   </files>
 </package>

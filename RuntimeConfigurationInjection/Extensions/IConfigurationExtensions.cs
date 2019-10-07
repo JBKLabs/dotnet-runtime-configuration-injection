@@ -1,7 +1,8 @@
 using System;
 using Microsoft.Extensions.Configuration;
 
-namespace RuntimeConfigurationInjection.Extensions {
+// ReSharper disable once CheckNamespace
+namespace JBKnowledge.Extensions {
     // ReSharper disable once InconsistentNaming
     public static class IConfigurationExtensions {
         // ReSharper disable once UnusedMember.Global

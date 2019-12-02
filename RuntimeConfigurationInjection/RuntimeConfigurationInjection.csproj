@@ -2,11 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>JBKLabs</Authors>
     <Company>JBKnowledge</Company>
     <PackageId>JBKnowledge.Extensions.RuntimeConfigurationInjection</PackageId>
-    <PackageProjectUrl>https://github.com/JBKLabs/dotnet-runtime-configuration-injection</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/JBKLabs/dotnet-runtime-configuration-injection</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

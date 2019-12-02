@@ -8,6 +8,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="file">LICENSE.txt</license>
     <projectUrl>https://github.com/JBKLabs/dotnet-runtime-configuration-injection</projectUrl>
+    <repository type="git" url="https://github.com/JBKLabs/dotnet-runtime-configuration-injection"/>
     <description>Package Description</description>
     <dependencies>
       <group targetFramework=".NETStandard2.0">

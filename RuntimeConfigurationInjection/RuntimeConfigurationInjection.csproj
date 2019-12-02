@@ -7,6 +7,7 @@
     <Company>JBKnowledge</Company>
     <PackageId>JBKnowledge.Extensions.RuntimeConfigurationInjection</PackageId>
     <PackageProjectUrl>https://github.com/JBKLabs/dotnet-runtime-configuration-injection</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/JBKLabs/dotnet-runtime-configuration-injection</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

@@ -67,7 +67,7 @@ dotnet restore
 dotnet publish -c $CONFIGURATION
 nuget pack .nuspec -Properties Configuration=$CONFIGURATION -Version $NEXT_VERSION
 
-sed -i -e "s/## Unreleased/## Unreleased\n\n\## [$NEXT_VERSION\] - $DATE/" CHANGELOG.md
+sed -i -e "s/## Unreleased/## [$NEXT_VERSION\] - $DATE/" CHANGELOG.md
 git add CHANGELOG.md
 git commit -m "prepare $NEXT_VERSION"
 git push

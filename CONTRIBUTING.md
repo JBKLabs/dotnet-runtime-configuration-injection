@@ -1,6 +1,18 @@
 ## Developing Locally
 
-TODO
+* create a directory on your machine to serve as a local nuget package source, e.g. `~/.local/nuget`
+* run `nuget sources Add -Name local -Source <absolute path>`. 
+  * e.g. `nuget sources Add -Name local -Source C:\Users\bmaule\.local\nuget`
+* run the provied `scripts/local-deploy.sh` to push a new version to your local source
+* open up a api project and install the newest version from your local source
+
+## Dependency Versions
+
+When declaring new dependencies, make sure you do the following:
+
+* verify the dependency + version are compatible with core 2.2
+* verify the changes persist to the `.csproj` file
+* **manually** update the `.nuspec` file
 
 ## Deploying
 

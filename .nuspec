@@ -12,7 +12,8 @@
     <description>Package Description</description>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
-        <dependency id="Microsoft.Extensions.Configuration" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="2.2.4" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>

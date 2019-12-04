@@ -3,6 +3,7 @@
 * create a directory on your machine to serve as a local nuget package source, e.g. `~/.local/nuget`
 * run `nuget sources Add -Name local -Source <absolute path>`. 
   * e.g. `nuget sources Add -Name local -Source C:\Users\bmaule\.local\nuget`
+* export the absolute path to your local nuget source as `LOCAL_NUGET_SOURCE`
 * run the provided `scripts/local-deploy.sh` to push a new version to your local source
 * open up an API project and install the newest version from your local source
 
